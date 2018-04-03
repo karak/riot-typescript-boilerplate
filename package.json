@@ -1,0 +1,41 @@
+{
+  "name": "riot-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to create app with riot written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --singleRun",
+    "watch": "karma start",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "riotjs",
+    "typescript",
+    "karma",
+    "jasmine",
+    "boilerplate"
+  ],
+  "author": "Karak<karak97@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/riot": "^3.6.1",
+    "html-webpack-plugin": "^3.1.0",
+    "jasmine-core": "^2.99.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-riot": "^2.0.0",
+    "karma-typescript": "^3.0.12",
+    "riot-tag-loader": "^2.0.2",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "riot": "^3.9.1"
+  }
+}
